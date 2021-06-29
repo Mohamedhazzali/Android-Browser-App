@@ -1,0 +1,9 @@
+com/Hazzali/androidbrowser/WelcomeActivity.java
+ com.Hazzali.androidbrowser.WelcomeActivity
+ com.Hazzali.androidbrowser.WelcomeActivity$1
+com/Hazzali/androidbrowser/UrlSearch.java
+ com.Hazzali.androidbrowser.UrlSearch
+com/Hazzali/androidbrowser/MainActivity.java
+ com.Hazzali.androidbrowser.MainActivity
+com/Hazzali/androidbrowser/BuildConfig.java
+ com.Hazzali.androidbrowser.BuildConfig

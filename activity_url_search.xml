@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UrlSearch">
+    <EditText
+        android:id="@+id/srchinurl"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:hint="Type or Paste Url.."
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white">
+    </EditText>
+
+    <Button
+        android:id="@+id/btninurl"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/srchinurl"
+        android:background="@color/purple_200"
+        android:text="Search">
+    </Button>
+    <Button
+        android:id="@+id/homeinurl"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/btninurl"
+        android:background= "@drawable/ic_baseline_home_24"
+        >
+    </Button>
+
+    <WebView
+        android:id="@+id/Searchwebsite"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>
